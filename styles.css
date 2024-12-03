@@ -1,0 +1,58 @@
+/* Variables */
+
+:root {
+    --purple: #9D44B5;
+    --lite-gray: #F8F9FA;
+    --yellow: #ffee32;
+}
+
+/* Structure */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #466365;
+    height: 100vh;
+    font-family: 'helsinkiregular', Arial, Helvetica, sans-serif;
+    
+}
+
+main {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: var(--lite-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    width: 70%;
+    margin: 1.5rem auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+/* Typography */ 
+h1 {
+    font-size: 2.6rem;
+    color: whitesmoke;
+}
