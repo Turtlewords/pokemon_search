@@ -47,8 +47,9 @@ async function getPokemon() {
 
 
     } catch (err) {
-        resetDisplay();
+        
         alert("Pokémon not found")
+        resetDisplay();
     }
 } 
 
