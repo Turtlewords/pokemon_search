@@ -41,12 +41,59 @@ main {
     padding: 1.5rem;
     width: 70%;
     margin: 1.5rem auto;
+    border-radius: 10px;
+    box-shadow: .6rem .6rem darkgray;
 }
+
+#search-lbl {
+    margin-bottom: 1rem;
+}
+
+#search-button {
+    background-color: #9D44B5;
+    color: whitesmoke;
+    padding: .6rem;
+    font-weight: bold;
+    margin-left: .5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
 
 form {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.upper-output {
+    height: 400px;
+    width: 100%;
+    border: 2px solid red;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#sprite-container {
+    display: flex;
+    
+}
+
+#sprite {
+    width: 200px;
+}
+
+
+table {
+    border-spacing: .3rem;
+    width: 100%;
+}
+td, th {
+    background-color: #9D44B5;
+    color: whitesmoke;
+    padding: .35rem; 
+    text-align: center;
 }
 
 
@@ -55,4 +102,87 @@ form {
 h1 {
     font-size: 2.6rem;
     color: whitesmoke;
+}
+
+/* Pokemon Types */
+.types {
+    padding: .3rem;
+    border-radius: 2px;
+    margin-left: .3rem;
+    background-color: red;
+    text-transform: uppercase;
+    
+}
+
+
+.fighting {
+    background-color: darkred;
+}
+
+.psychic {
+    background-color: palevioletred;
+}
+
+.poison {
+    background-color: purple;
+}
+
+.dragon {
+    background-color: darkblue;
+}
+
+.ghost {
+    background-color: darkcyan;
+}
+
+.dark {
+    background-color: darkgrey;
+}
+
+.ground {
+    background-color: orange;
+}
+
+.fire {
+    background-color: orangered;
+}
+
+.fairy {
+    background-color: plum;
+}
+
+.water {
+    background-color: blue;
+}
+
+.flying {
+    background-color: aqua;
+}
+
+.normal {
+    background-color: gray;
+}
+
+.rock {
+    background-color: burlywood;
+}
+
+.electric {
+    background-color: yellow;
+}
+
+.bug {
+    background-color: greenyellow;
+}
+
+.grass {
+    background-color: green;
+}
+
+.ice {
+    background-color: aqua;
+}
+
+.steel {
+    background-color: steelblue;
 }

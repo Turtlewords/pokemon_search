@@ -14,16 +14,19 @@
             <section id="search-table">
                 <div class="wrapper">
                     <form role="search" id="search-form">
-                        <label for="search-bar">Search for Pok&#233mon Name or ID:</label>
-                        <input type="text" name="pokemon" id="search-bar" required>
-                        <button id="search-btn">Search</button>
+                        <label id="search-lbl" for="search-input">Search for Pok&#233mon Name or ID:</label>
+                        <input type="text" name="pokemon" id="search-input" required>
+                        <button id="search-button">Search</button>
                     </form>
-                    <div class="output">
-                        <div class="name-id"></div>
-                        <div class="size"></div>
-                        <div class="sprite"></div>
-                        <div class="type"></div>
-                        <div class="table-wrapper">
+                    
+                    <div class="upper-output">
+                        <p id="name-id"><span id="pokemon-name"></span><span id="pokemon-id"></span></p>
+                        <p id="size"><span id="weight"></span>&nbsp;<span id="height"></span></p>
+                        <div id="sprite-container"></div>
+                        <div id="types"></div>
+                    </div>
+                        
+                    
                             <table>
                                 <tr>
                                     <th>Base</th>
@@ -43,19 +46,19 @@
                                 </tr>
                                 <tr>
                                     <td>Sp. Attack:</td>
-                                    <td id="sp-attack"></td>
+                                    <td id="special-attack"></td>
                                 </tr>
                                 <tr>
                                     <td>Sp. Defense:</td>
-                                    <td id="sp-defense"></td>
+                                    <td id="special-defense"></td>
                                 </tr>
                                 <tr>
                                     <td>Speed:</td>
                                     <td id="speed"></td>
                                 </tr>
                             </table>
-                        </div>
-                    </div>
+                        
+                    
                 </div>  
             </section>
         </main>
